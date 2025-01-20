@@ -33,9 +33,23 @@ Develop a Streamlit web application that predicts FAANG stock closing prices bas
 ---
 
 ## 📂 **Project Structure**
-FAANG-Predictor/ ├── data/ │ ├── raw/ # Raw dataset │ ├── processed/ # Cleaned dataset after preprocessing ├── notebooks/ # Jupyter notebooks for prototyping and exploration ├── src/ # Python scripts for modular code (preprocessing, modeling, etc.) ├── app/ # Streamlit application files ├── models/ # Saved models and MLflow artifacts ├── reports/ # Documentation and results
+FAANG-Predictor/
+├── data/
+│   ├── raw/           # Raw dataset
+│   ├── processed/     # Cleaned dataset after preprocessing
+├── notebooks/         # Jupyter notebooks for prototyping and exploration
+├── src/               # Python scripts for modular code (preprocessing, modeling, etc.)
+├── app/               # Streamlit application files
+├── models/            # Saved models and MLflow artifacts
+├── reports/           # Documentation and results
 
 ---
+
+## 📦 **Requirements**
+Install the dependencies listed in `requirements.txt`:
+```bash
+pip install -r requirements.txt
+
 
 ## 📝 **Workflow**
 ### **1. Data Cleaning**
@@ -78,3 +92,8 @@ The dataset contains historical stock prices and financial metrics for FAANG com
 1. Clone the repository:
    ```bash
    git clone https://github.com/dinedev-24/FAANG-Predictor.git
+
+2. cd FAANG-Predictor
+3. pip install -r requirements.txt
+4. streamlit run app/app.py
+5. streamlit run app/app.py
