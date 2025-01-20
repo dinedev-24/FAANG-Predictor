@@ -50,7 +50,6 @@ Install the dependencies listed in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
 
-
 ## 📝 **Workflow**
 ### **1. Data Cleaning**
 - Handle missing values, outliers, and standardize data formats.
